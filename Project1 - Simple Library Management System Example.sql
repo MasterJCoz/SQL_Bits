@@ -1,8 +1,10 @@
+--! Initialize
+
 CREATE DATABASE LibraryDB_SMS;
 USE LibraryDB_SMS;
 
 
--- Create Tables For data
+--* Create Tables For data
 
 CREATE TABLE Books (
     book_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -35,7 +37,7 @@ CREATE TABLE BorrowedBooks (
 
 
 
--- Insert Data
+--* Insert Data
 
 INSERT INTO Books (title, author, published_year, available_copies)
 VALUES 
@@ -64,7 +66,7 @@ VALUES
     
     
     
--- Interact / Find Data
+--* Interact / Find Data
 
     
 -- List all books	
@@ -101,7 +103,7 @@ WHERE borrower_id = 1 AND NOT EXISTS (
 
 
 
--- Wipe Tables
+--* Wipe Tables
 
 -- disable foreign key checks before truncating
 SET FOREIGN_KEY_CHECKS = 0;

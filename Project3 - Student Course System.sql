@@ -1,6 +1,7 @@
 -- This project for solidifyting SQL skills
 -- https://quickref.me/mysql
 -- used 'Database Client extention
+-- Comments can complicate readability since most lines are self-explanatory
 
 --
 

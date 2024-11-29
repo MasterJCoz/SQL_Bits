@@ -1,3 +1,4 @@
+# Comments can complicate readability since most lines are self-explanatory
 
 
 #! --- Initialize Dictionarys ---
@@ -63,6 +64,7 @@ def delete_song(songTitle_):
     except Exception:
         print(">>> Couldn't find Song to remove -> " + songTitle_)
     
+
 
 
 
